@@ -59,3 +59,10 @@ a.btn:hover {
 .header-login {
   margin-left: auto;
 }
+
+/* კონტენტის ცენტრში გასწორების ხერხი flex ის გარეშე */
+.btn-big,
+a.btn-big {
+  min-height: 65px;
+  line-height: 65px;
+}
