@@ -12,8 +12,6 @@
 }
 .footer-nav li+li{
   margin-top: 60px;
-
-
 }
 .footer-logo +*{
   margin-top: 74px;
@@ -23,4 +21,29 @@
 }
 .footer-nav a:hover{
     opacity: 0.8;
+}
+@media(max-width:1399px){
+  .footer-nav{
+    font-size: 22px;
+  }
+  .footer-nav li+li{
+    margin-top: 40px;
+  }
+  .footer{
+    padding: 80px 0 100px;
+  }
+}
+@media(max-width:500px){
+  .footer-nav{
+    font-size: 18px;
+  }
+  .footer-nav li+li{
+    margin-top: 30px;
+  }
+  .footer{
+    padding: 40px 0 60px;
+  }
+  .footer-logo +*{
+    margin-top: 40px;
+  }
 }
