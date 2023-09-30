@@ -3,6 +3,12 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #424242;
+  /* min-width: 1600px; */
+}
+@media(max-width:990px){
+  body{
+    font-size: 18px;
+  }
 }
 /* Utility */
 .none {
@@ -27,6 +33,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media(max-width:1399px){
+  .container{
+    width: 100%;
+  }
+}
 .container-wide{
   max-width: 1536px;
+}
+@media(max-width:1535px){
+  
 }
