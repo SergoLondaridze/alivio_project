@@ -1,0 +1,31 @@
+.mobile-nav {
+    display: none;
+}
+.mobile-nav.active{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 15px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 22px;
+}
+
+.mobile-nav-list li+li {
+ margin-top: 20px;
+}
+
+.mobile-login {
+    display: flex;
+    flex-direction: column;
+}
+.mobile-login >* +*{
+    margin-top: 20px;
+}
